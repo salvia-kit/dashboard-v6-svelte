@@ -139,13 +139,13 @@
 		<div class="grid grid-cols-3 gap-4">
 			<div class="flex flex-col items-center">
 				<div class="relative">
-					<a href="#" class="block relative">
+					<span class="block relative">
 						<img
 							alt="Enoch Ndika"
 							src="/images/1.jpg"
 							class="mx-auto object-cover rounded-full h-10 w-10 "
 						/>
-					</a>
+					</span>
 					<svg
 						width="10"
 						height="10"
@@ -163,13 +163,13 @@
 			</div>
 			<div class="flex flex-col items-center">
 				<div class="relative">
-					<a href="#" class="block relative">
+					<span class="block relative">
 						<img
 							alt="Lionel Messi"
 							src="/images/2.jpg"
 							class="mx-auto object-cover rounded-full h-10 w-10 "
 						/>
-					</a>
+					</span>
 					<svg
 						width="10"
 						height="10"
@@ -187,13 +187,13 @@
 			</div>
 			<div class="flex flex-col items-center">
 				<div class="relative">
-					<a href="#" class="block relative">
+					<span class="block relative">
 						<img
 							alt="Jonathan Ilunga"
 							src="/images/4.jpg"
 							class="mx4auto object-cover rounded-full h-10 w-10 "
 						/>
-					</a>
+					</span>
 					<svg
 						width="10"
 						height="10"
@@ -211,13 +211,13 @@
 			</div>
 			<div class="flex flex-col items-center">
 				<div class="relative">
-					<a href="#" class="block relative">
+					<span class="block relative">
 						<img
 							alt="Maurice Lokumba"
 							src="/images/5.jpg"
 							class="mx-auto object-cover rounded-full h-10 w-10 "
 						/>
-					</a>
+					</span>
 					<svg
 						width="10"
 						height="10"
@@ -235,13 +235,13 @@
 			</div>
 			<div class="flex flex-col items-center">
 				<div class="relative">
-					<a href="#" class="block relative">
+					<span class="block relative">
 						<img
 							alt="CR7"
 							src="/images/3.png"
 							class="mx-auto object-cover rounded-full h-10 w-10 "
 						/>
-					</a>
+					</span>
 					<svg
 						width="10"
 						height="10"
@@ -259,13 +259,13 @@
 			</div>
 			<div class="flex flex-col items-center">
 				<div class="relative">
-					<a href="#" class="block relative">
+					<span class="block relative">
 						<img
 							alt="Dave Glad"
 							src="/images/6.jpg"
 							class="mx-auto object-cover rounded-full h-10 w-10 "
 						/>
-					</a>
+					</span>
 					<svg
 						width="10"
 						height="10"
@@ -286,7 +286,7 @@
 	<div
 		class="shadow-lg rounded-xl w-full md:w-4/12 mt-8 md:ml-2 p-4 bg-white dark:bg-gray-800 text-gray-700 relative overflow-hidden"
 	>
-		<a href="#" class="w-full h-full block">
+		<span class="w-full h-full block">
 			<div class="w-full">
 				<p class="text-gray-700 dark:text-white  text-2xl font-light mb-4">Task Progress</p>
 				<div class="flex items-center justify-between text-gray-400 text-sm">
@@ -318,7 +318,7 @@
 					<div class="w-full h-full text-center text-xs text-white bg-pink-400 rounded-full" />
 				</div>
 			</div>
-		</a>
+		</span>
 	</div>
 
 	<div
@@ -326,12 +326,11 @@
 	>
 		<div class="w-full flex items-center justify-between mb-8">
 			<p class="text-gray-800 dark:text-white text-xl">Account</p>
-			<a
-				href="#"
+			<span
 				class="flex items-center text-sm hover:text-gray-600 dark:text-gray-50 dark:hover:text-white text-gray-300 border-0 focus:outline-none"
 			>
 				VIEW ALL
-			</a>
+			</span>
 		</div>
 		<div class="flex items-center mb-6 rounded justify-between">
 			<span class="rounded-lg">

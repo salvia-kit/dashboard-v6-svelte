@@ -7,7 +7,7 @@
 	import TopNavigation from './topnavigation/Index.svelte';
 	import SideNavigation from './sidenavigation/Index.svelte';
 
-	/*w-[calc(100%-16rem)] class get the remain width of the main tag from lg:viewport by dividing
+	/*w-[calc(100%-16rem)] class get the remain width of the main tag from lg:viewport by subtracting
 	(the total width by the width of the side navigation component which is w-64 = 16rem)*/
 
 	const style = {
@@ -15,6 +15,10 @@
 		mainContainer: `bg-[#25074d] flex flex-col h-screen pl-0 w-full lg:w-[calc(100%-16rem)]`,
 		main: `bg-gray-100 h-screen overflow-auto pb-36 pt-4 px-2 md:pb-8 md:px-4 lg:px-6 lg:rounded-tl-3xl`
 	};
+
+	onMount(() => {
+		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
+	});
 
 	if (browser) {
 		page.subscribe(() => {
@@ -24,10 +28,6 @@
 			}
 		});
 	}
-
-	onMount(() => {
-		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
-	});
 </script>
 
 <div class={style.container}>
