@@ -14,7 +14,7 @@
 		{#each data as item, i (item.title)}
 			<a
 				href={item.link}
-				class={`${style.link} ${item.link === $page.path ? style.active : style.inactive}`}
+				class={`${style.link} ${item.link === $page.url.pathname ? style.active : style.inactive}`}
 			>
 				<span><svelte:component this={item.icon} /></span>
 				<span class="mx-4">{item.title}</span>

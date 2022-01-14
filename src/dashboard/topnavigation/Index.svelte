@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="flex items-center justify-end ml-5 p-1 relative w-full sm:mr-0 sm:right-auto">
-				<a href="#" class="block pr-5">
+				<span class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6 text-white"
@@ -38,8 +38,8 @@
 							d="M5.636 18.364a9 9 0 010-12.728m12.728 0a9 9 0 010 12.728m-9.9-2.829a5 5 0 010-7.07m7.072 0a5 5 0 010 7.07M13 12a1 1 0 11-2 0 1 1 0 012 0z"
 						/>
 					</svg>
-				</a>
-				<a href="#" class="block pr-5">
+				</span>
+				<span class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6 text-white"
@@ -52,14 +52,14 @@
 							clip-rule="evenodd"
 						/>
 					</svg>
-				</a>
-				<a href="#" class="block relative">
+				</span>
+				<span class="block relative">
 					<img
 						alt="Enoch Ndika"
 						src="/images/1.jpg"
 						class="h-10 mx-auto object-cover rounded-full w-10"
 					/>
-				</a>
+				</span>
 			</div>
 		</div>
 	</div>
